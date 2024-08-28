@@ -1,0 +1,73 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/random/1920x1080');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Counter Section */
+.container.counter-section {
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Counter Box */
+.counter-box {
+    margin: 20px 0;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.counter-box:hover {
+    transform: scale(1.1);
+}
+
+.icon-box {
+    border: 2px solid #ffc800;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(255, 200, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+.icon-box .fa {
+    font-size: 60px;
+    color: #ffc800;
+    transform: rotate(-45deg);
+    transform: translate(45deg);
+}
+
+.counter-box p {
+    font-size: 22px;
+    margin: 0;
+}
+
+/* Counter Text */
+.counter {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffc800;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
